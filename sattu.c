@@ -19,7 +19,7 @@ int maxArraySum(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {4, -2, 5, -1, 2, -3, 6};
+    int arr[] = {9, -2, 5, -1, 2, -3, 6};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     int result = maxArraySum(arr, n);
