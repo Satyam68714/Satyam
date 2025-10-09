@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-// Function to find maximum sum of subarray of length 2
 int maxArraySum(int arr[], int n) {
     if (n < 2) {
-        return -1; // not possible
+        return -1; 
     }
 
     int maxSum = arr[0] + arr[1];
@@ -19,7 +18,7 @@ int maxArraySum(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {9, -2, 5, -1, 2, -3, 6};
+    int arr[] = {9, 2, 5, 1, 5, 7, 6};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     int result = maxArraySum(arr, n);
